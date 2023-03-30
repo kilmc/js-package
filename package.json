@@ -1,13 +1,14 @@
 {
   "name": "js-package",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A template JS package",
   "main": "dist/bundle.js",
   "module": "dist/bundle.mjs",
   "types": "dist/main.d.ts",
   "scripts": {
     "build": "rollup --config",
-    "test": "vitest"
+    "test": "vitest",
+    "changeset": "changeset"
   },
   "keywords": [],
   "author": "Kilian McMahon",
